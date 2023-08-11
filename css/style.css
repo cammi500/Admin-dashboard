@@ -14,3 +14,29 @@
  
 
 }
+.list-group-item{
+    border-color: transparent !important;
+    border-left-width: 3px !important;
+}
+.list-group-item.active{
+    background-color: transparent !important;
+    color: blue;
+    border-style:solid !important;
+    border-left-color:blue !important; 
+}
+
+@media screen and (max-width: 768px){
+    .aside{
+        position: fixed ;
+        top: 0;
+        left: -100%;
+        transition: 0.5s;
+        z-index: 1041;
+
+        height: 100vh;
+        background-color:#fff;
+    }
+    .aside.show{
+        left:0;
+    }
+}

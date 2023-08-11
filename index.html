@@ -5,22 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 <!-- dashboard -->
 <div class="d-flex">
     <!-- left -->
-    <aside class="aside m-2">
+   
+    <aside class="aside p-2">
         <div class="card">
           <div class="card-body">
             <div class=" ms-3 mb-3">
                 <h3>Sonarli</h3>
                 <span class="small">Web development</span>
             </div>
-            <div class="d-flex ms-3 mb-3">
-                <i class="fas fa-search"></i>
-                <input type="text" name="" id="" placeholder="Search ...." class="form-control border-0">
+            <div class="">
+                <div class="d-flex justify-content-center align-items-center p-1">
+                    <i class="fas fa-search me-2 "></i>
+                    <input type="text" name="" id="" placeholder="Search ...." class="form-control border border-0">
+                </div>
             </div>
             <div class="mb-3">
                 <div class="list-group list-group-flush">
@@ -32,16 +36,16 @@
                         <span class="">Dashboard</span>
                     </a>
                     <a href="http://" class="list-group-item list-group-item-action">
-                        <i class="fas fa-home me-2 fa-fw "></i>
-                        <span class="">Dashboard</span>
+                        <i class="fas fa-dollar me-2 fa-fw "></i>
+                        <span class="">Income</span>
+                    </a>
+                    <a href="http://" class="list-group-item list-group-item-action">
+                        <i class="fas fa-person me-2 fa-fw "></i>
+                        <span class="">Customer Care</span>
                     </a>
                     <a href="http://" class="list-group-item list-group-item-action">
                         <i class="fas fa-home me-2 fa-fw "></i>
-                        <span class="">Dashboard</span>
-                    </a>
-                    <a href="http://" class="list-group-item list-group-item-action">
-                        <i class="fas fa-home me-2 fa-fw "></i>
-                        <span class="">Dashboard</span>
+                        <span class="">Sale Analysis</span>
                     </a>
 
                     </div>
@@ -50,12 +54,12 @@
                          
                         </li>
                         <a href="http://" class="list-group-item list-group-item-action">
-                            <i class="fas fa-home me-2 fa-fw "></i>
-                            <span class="">Dashboard</span>
+                            <i class="fas fa-passport me-2 fa-fw "></i>
+                            <span class="">Password</span>
                         </a>
                         <a href="http://" class="list-group-item list-group-item-action">
                             <i class="fas fa-home me-2 fa-fw "></i>
-                            <span class="">Dashboard</span>
+                            <span class="">Theme</span>
                         </a>
                        
                         </div>
@@ -63,11 +67,49 @@
           </div>
         </div>
     </aside>
+    <div class="__backdrop fade"></div>
     <!-- right -->
-    <main class="main bg-info">
+    <main class="main  pt-2">
+        <div class="container-fluid">
+            <div class="row px-1">
+                <div class="col-lg-12">
+                    <div class="row justify-content-between align-items-center border p-2">
+                      
+                            <div class="col d-lg-none">
+                            <div class="aside-btn">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                            </div>
+                            <div class="col ">
+                                <div class="text-center text-lg-start">
+                                    <img src="./img/png-clipart-logo-idea-cute-eagle-leaf-logo.png" width="30px" height="30px" >
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="text-end">
+                                    <i class="fa-solid fa-gears"></i> 
+                                    <a href="#" type="button" class="btn btn-primary position-relative">
+                                         <i class="fa-solid fa-bell"></i>
+                                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                          99+
+                                          <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                      </a>
+                                </div>
+                                
+                            </div>
+                       
 
+
+                       
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-</div>
 
+</div>
+<script src="js/script.js"></script>
 </body>
 </html>
