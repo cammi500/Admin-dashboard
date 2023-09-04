@@ -1,3 +1,3 @@
 # Admin-dashboard
-
-<a href="https://stupendous-sopapillas-42cfa1.netlify.app/">demo</a>
+Demo
+<a href="https://stupendous-sopapillas-42cfa1.netlify.app/">Click me</a>
